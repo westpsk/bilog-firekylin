@@ -140,7 +140,7 @@
     "stc-resource-version": "^1.0.0",
     "stc-uglify": "^1.0.1",
     "style-loader": "^0.13.0",
-    "superagent": "^1.7.2",
+    "superagent": "^3.7.0",
     "think-watcher": "^3.0.0",
     "ts-import-plugin": "^1.5.4",
     "ts-loader": "^4.4.2",
@@ -151,7 +151,7 @@
     "typescript": "^3.0.1",
     "url-loader": "^1.0.1",
     "webpack": "^4.20.2",
-    "webpack-bundle-analyzer": "^2.4.1",
+    "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5",
     "webpack-merge": "^4.1.4"
