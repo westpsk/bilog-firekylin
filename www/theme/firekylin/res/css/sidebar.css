@@ -33,9 +33,9 @@
 }
 #sidebar .profile span {
   display: block;
-  padding: 10px 0;
+  padding: 20px 0;
   font-size: 18px;
-  color: #999;
+  color: #000;
   text-align: center;
 }
 #sidebar .buttons {
@@ -75,6 +75,16 @@
 #sidebar .buttons li a.inline{
   display: inline-block;
   width: 40px;
+}
+#sidebar .buttons.options{
+  margin-left: 15px;
+}
+#sidebar .buttons.options li a{
+  width: auto;
+  padding: 0 10px;
+}
+#sidebar .buttons.options li a i{
+  margin-right: 0;
 }
 #sidebar-mask {
   position: absolute;

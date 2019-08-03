@@ -22,6 +22,7 @@
     #sidebar {
       background-image: url('{{themeConfig.sidebarBackground}}');
       background-size:cover;
+      background-position:center;
     }
     #sidebar .buttons li a{
       color: #000;
@@ -53,7 +54,7 @@
         </li>
         {% endfor %}
       </ul>
-      <ul class="buttons">
+      <ul class="buttons options">
         <li>
           {% if options.github_url %}
           <a class="inline" rel="nofollow" target="_blank" href="{{options.github_url}}">
