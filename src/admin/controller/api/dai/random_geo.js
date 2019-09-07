@@ -40,14 +40,10 @@ module.exports = class extends Base {
     const nums = getRandomNums(radom)
     nums.forEach((num, index) => {
       result.push({
-        accountId: index + 1,
-        account: `${phonePre[genInt(0, phonePre.length)]}${genInt(1, 10e7)}`,
-        x: pois[num][1],
-        y: pois[num][0],
-        vulnerability: genInt(1, 10),
-        fall: genInt(1, 10),
-        stealSecret: genInt(1, 10),
-        attack: genInt(1, 10)
+        id: index + 1,
+        name: `${phonePre[genInt(0, phonePre.length)]}${genInt(1, 10e7)}`,
+        x: pois[num][1].toString(),
+        y: pois[num][0].toString()
       })
     })
     console.log(result)
