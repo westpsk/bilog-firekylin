@@ -9,9 +9,9 @@ module.exports = class extends BaseRest {
 
   async __before () {
     let userInfo = await this.session('userInfo') || {}
-    if (think.isEmpty(userInfo)) {
-      return this.fail('USER_NOT_LOGIN')
-    }
+    // if (think.isEmpty(userInfo)) {
+    //   return this.fail('USER_NOT_LOGIN')
+    // }
 
     let action = this.ctx.action
     if (action !== 'get') {
