@@ -44,6 +44,10 @@ module.exports = class extends Base {
         account: `${phonePre[genInt(0, phonePre.length)]}${genInt(1, 10e7)}`,
         x: pois[num][1],
         y: pois[num][0],
+        vulnerability: genInt(1, 10),
+        fall: genInt(1, 10),
+        stealSecret: genInt(1, 10),
+        attack: genInt(1, 10)
       })
     })
     console.log(result)
