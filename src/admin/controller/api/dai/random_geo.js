@@ -42,8 +42,8 @@ module.exports = class extends Base {
       result.push({
         id: (index + 1).toString(),
         name: `${phonePre[genInt(0, phonePre.length)]}${genInt(1, 10e7)}`,
-        x: pois[num][1].toString(),
-        y: pois[num][0].toString(),
+        x: pois[num][0].toString(),
+        y: pois[num][1].toString(),
         color: '#00b0f0',
         province: '江苏',
         type_id: 1
