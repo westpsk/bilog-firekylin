@@ -40,10 +40,13 @@ module.exports = class extends Base {
     const nums = getRandomNums(radom)
     nums.forEach((num, index) => {
       result.push({
-        id: index + 1,
+        id: (index + 1).toString(),
         name: `${phonePre[genInt(0, phonePre.length)]}${genInt(1, 10e7)}`,
         x: pois[num][1].toString(),
-        y: pois[num][0].toString()
+        y: pois[num][0].toString(),
+        color: '#00b0f0',
+        province: '江苏',
+        type_id: 1
       })
     })
     console.log(result)
